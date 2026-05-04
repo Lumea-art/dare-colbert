@@ -1,0 +1,4 @@
+{"pid": 0, "cord_uid": "d1", "title": "covid vaccine study", "source_name": "who", "source_id": 0, "publish_time": "2020-01-15", "first_seen_round": 1}
+{"pid": 1, "cord_uid": "d2", "title": "viral transmission mask", "source_name": "cdc", "source_id": 1, "publish_time": "2020-02-15", "first_seen_round": 1}
+{"pid": 2, "cord_uid": "d3", "title": "long covid symptoms", "source_name": "who", "source_id": 0, "publish_time": "2020-03-20", "first_seen_round": 2}
+{"pid": 3, "cord_uid": "d4", "title": "antiviral treatment trial", "source_name": "nih", "source_id": 2, "publish_time": "2020-04-25", "first_seen_round": 3}

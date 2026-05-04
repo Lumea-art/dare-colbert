@@ -1,0 +1,40 @@
+{
+  "dataset": "trec-covid-incremental",
+  "base_round": 1,
+  "rounds": {
+    "1": {
+      "num_queries": 1,
+      "num_qrels": 1,
+      "num_cumulative_docs": 2,
+      "num_delta_docs": 2,
+      "queries_path": "rounds\\round1\\queries.tsv",
+      "qrels_path": "rounds\\round1\\qrels.tsv",
+      "delta_collection_path": null,
+      "delta_meta_path": null
+    },
+    "2": {
+      "num_queries": 1,
+      "num_qrels": 1,
+      "num_cumulative_docs": 3,
+      "num_delta_docs": 1,
+      "queries_path": "rounds\\round2\\queries.tsv",
+      "qrels_path": "rounds\\round2\\qrels.tsv",
+      "delta_collection_path": "delta\\round2\\collection.tsv",
+      "delta_meta_path": "delta\\round2\\collection_meta.jsonl"
+    },
+    "3": {
+      "num_queries": 1,
+      "num_qrels": 1,
+      "num_cumulative_docs": 4,
+      "num_delta_docs": 1,
+      "queries_path": "rounds\\round3\\queries.tsv",
+      "qrels_path": "rounds\\round3\\qrels.tsv",
+      "delta_collection_path": "delta\\round3\\collection.tsv",
+      "delta_meta_path": "delta\\round3\\collection_meta.jsonl"
+    }
+  },
+  "num_documents": 4,
+  "num_sources": 3,
+  "topic_field": "query",
+  "docids_mode": "incremental"
+}

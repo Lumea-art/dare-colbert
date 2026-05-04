@@ -1,0 +1,2 @@
+{"pid": 0, "time_bucket_id": 0, "source_id": 0, "recency_norm": 0.0, "cluster_label": -100, "cluster_confidence": 1.0, "cord_uid": "d1", "source_name": "who", "publish_time": "2020-01-15", "first_seen_round": 1}
+{"pid": 1, "time_bucket_id": 0, "source_id": 1, "recency_norm": 0.0, "cluster_label": -100, "cluster_confidence": 1.0, "cord_uid": "d2", "source_name": "cdc", "publish_time": "2020-02-15", "first_seen_round": 1}

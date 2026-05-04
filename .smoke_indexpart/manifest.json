@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "segments": [
+    {
+      "name": "base",
+      "relative_path": ".",
+      "segment_type": "base",
+      "active": true,
+      "faiss_name": null
+    },
+    {
+      "name": "seg_1",
+      "relative_path": "delta\\seg_1",
+      "segment_type": "delta",
+      "active": true,
+      "faiss_name": "dummy.faiss"
+    }
+  ]
+}
